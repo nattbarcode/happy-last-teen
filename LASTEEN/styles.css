@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    background-color: #FFD1DC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Pacifico', cursive;
+}
+
+.screen {
+    background: #FFECF3;
+    padding: 30px; /* Memberikan ruang 30px di semua sisi kontainer */
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px; /* Meningkatkan lebar kontainer */
+    height: auto; /* Mengatur tinggi otomatis untuk menampung konten */
+}
+
+.hidden {
+    display: none;
+}
+
+h2 {
+    color: #FF69B4;
+}
+
+input {
+    padding: 10px; /* Memberikan ruang 10px di dalam input */
+    border: 2px solid #FF69B4;
+    border-radius: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+button {
+    background: #FF69B4;
+    color: white;
+    padding: 10px 15px; /* Memberikan ruang 10px di atas dan bawah, 15px di kiri dan kanan */
+}
